@@ -53,6 +53,7 @@ function initSuduko(lv){
 
 function check(){
     let flag = true;
+	let a = 5;
     for(let row = 0 ; row < saveBoard.length ; row++){
         for(let col = 0 ; col < saveBoard.length ; col++){
             let e = document.getElementById(`td${row}${col}`);
